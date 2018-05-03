@@ -5,30 +5,49 @@
 	color: #ffffff;
 	font-size: 16px;
 	position: fixed;
+	padding: 5px;
+	margin: auto;
 }
 .principal{
-	width: 80%;
+	width: 90%;
 	height: auto;
+	margin: auto;
+	background: #A9D0F5;
 }
 .parte-izq{
-	width: 40%;
-	height: auto;
+	width: 50%;
+	margin-top: 3%;
+	height: 400px;
 	background: #58ACFA;
-	border-radius: 10pc;
+	border-bottom: 4px solid #000;
 	float: left;
 }
 .parte-der{
-	width: 40%;
-	height: auto;
+	width: 50%;
+	margin-top: 3%;
+	height: 400px;
 	background: #0174DF;
-	border-radius: 10pc;
+	border-bottom: 4px solid #000;
 	float: right;
 }
 li{
 	list-style: none;
+	cursor: default;
 }
 
 ul li{
-	width: 5%;
+    font-size: 20px;
+    margin-left: 2%;
+    padding-top: 0px;
+     text-decoration:none;
 	color: #fff;
+}
+ul li {
+    display:inline-block;
+    position: relative;
+    margin-bottom: 1%;
+}
+ul li:hover{
+	height: 60%;
+   background: #0080FF;
 }
